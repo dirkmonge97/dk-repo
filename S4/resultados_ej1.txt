@@ -1,0 +1,42 @@
+
+Resultados:
+ 
+
+1. string + string → ?
+
+muestra ambos strings
+
+
+2. string + int → ?
+
+error = solo concatenar string con string
+
+
+3. int + string → ?
+
+error = no soporta el operador + para int y string
+
+4. list + list → ?
+
+muestra ambas listas
+
+5. string + list → ?
+
+mismo error del #2
+
+6. float + int → ?
+
+muestra la suma correcta
+
+7. bool + bool → ?
+
+Resultado es en #
+
+False + True = 1
+False + False = 0
+True + True = 2
+
+
+
+
+

@@ -1,0 +1,83 @@
+1. Cree un algoritmo para ver un video en Youtube. Sea lo más especifico posible.
+
+Ver un video en youtube
+1. inicio
+2. Encender una computadora
+	a. si tiene contraseña:
+		i. ingrese la contraseña
+3. conectarse a internet
+	a. abrir la configuración de wifi 
+		i. si está apagado:
+			a1. encender wifi
+		ii. seleccionar la red
+		iii. si tiene contraseña:
+			a2. ingresar la contraseña
+4. ingresar a youtube
+	a. abrir el navegador
+	b. si tiene chrome
+		i. abrir chrome
+	c. sino, si tiene firefox:
+		i. abrir firefox
+	d. sino, si tiene safari
+		i. abrir safari
+	e. sino:
+		i. abrir explorer
+	f. ir a youtube
+5. reproducir un video
+	a. por cada video que quiera ver
+		i.pensar en un video para reproducir
+		ii. buscar el video
+		iii. reproducir el video
+		iiii. mientras el video carga:
+			a1. espere
+6. fin
+
+
+
+
+2. Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones múltiples y ciclos.
+
+1. inicio
+2. despertarme
+3. Si tengo hambre:
+	a. desayunar:
+		i. preparar el desayuno
+			a1. hacer pan de ajo
+			a2. cocinar huevos
+			a3. servir jugo
+		ii. comer
+4. trabajar:
+	a. Mientras esté en horario laboral:
+		i. si tengo reuniones pre-agendadas:
+			a1. atender a las reuniones
+		ii. por cada caso nuevo que reciba:
+			a1. enviar el primer correo al cliente:
+				a1-1. escribir saludo
+				a1-2. escribir presentación
+				a1-3. escribir siguientes pasos
+				a1-4. enviar
+		iii. si tengo correos o mensajes directos:
+			a1. contestarlos
+		iiii. mientras tenga tiempo libre:
+			a1. completar trainings
+
+5. hacer ejercicio:
+	a. ir al gimnasio:
+	b. si ya trabaje pierna en los últimos 2 días:
+		i. trabajar tronco superior
+	c. si termino la rutina o es hora de cerrar el gimnasio o me da hambre:
+	d. volver al apartamento
+6. cenar:
+	a. si no hay comida hecha:
+		i. hacer arroz
+		ii. hacer carne
+		iii. hacer ensalada
+		iiii. servir en un plato
+	b. mientras el plato tenga comida:
+		i. comer
+
+
+
+
+
+
