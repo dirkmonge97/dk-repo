@@ -1,0 +1,99 @@
+1. Cree un pseudocódigo que le pida un `precio de producto` al usuario, calcule su descuento y muestre el precio final tomando en cuenta que:
+    1. Si el precio es menor a 100, el descuento es del 2%.
+    2. Si el precio es mayor o igual a 100, el descuento es del 10%.
+    3. *Ejemplos*:
+        1. 120 → 108
+        2. 40 → 39.2
+
+:
+1. iniciar
+2. definir precio_de_producto
+3. definir precio_final
+4. definir descuento
+5. mostrar “Ingrese el precio del producto”
+6. pedir precio_de_producto
+7. si (precio_de_producto < 100) entonces:
+	a. descuento = precio_de_producto * 0.02
+8. sino:
+	a. si (precio_de_producto ⩾ 100) entonces:
+		i. descuento = precio_de_producto * 0.10
+	b. finsi
+9. finsi
+10. precio_final = precio_de_producto - descuento
+11. mostrar “Su precio final es de:”
+12. mostrar precio_final
+13. fin
+
+++
+
+2. Cree un pseudocódigo que le pida un `tiempo en segundos` al usuario y calcule si es menor o mayor a 10 minutos. Si es menor, muestre cuantos segundos faltarían para llegar a 10 minutos. Si es mayor, muestre “*Mayor*”.
+    1. *Ejemplos*:
+        1. 1040 → Mayor
+        2. 140 → 460
+        3. 599 → 1
+:
+1. iniciar
+2. definir tiempo_en_segundos
+3. definir tiempo_restante
+4. mostrar "ingrese el tiempo en segundos:"
+5. pedir tiempo_en_segundos
+6. si (tiempo_en_segundos > 600) entonces:
+	a. mostrar "*Mayor*"
+7. sino:
+	a. si (tiempo_en_segundos < 600) entonces:
+		i. tiempo_restante = 600 - tiempo_en_segundos
+		ii. mostrar "Para llegar a 10 minutos, su tiempo restante es:"
+		iii. mostrar tiempo_restante
+	b. finsi
+8. finsi
+9. fin
+
+
+3. Cree un algoritmo que le pida un numero al usuario y muestre la suma de todos los números desde 1 hasta ese número.
+    1. 3 → 6 (1 + 2 + 3)
+    2. 5 → 15 (1 + 2 + 3 + 4 + 5)
+    3. 12 → 78 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
+:
+1. iniciar
+2. definir numero
+3. definir suma
+4. mostrar "ingrese un numero"
+5. pedir "numero"
+6. suma = (numero x (numero + 1)) / 2
+7. mostrar "La suma es de:"
+8. mostrar suma
+9. fin
+
+
+
+1. Cree un algoritmo que le pida 2 números al usuario, los guarde en dos variables distintas (`primero` y `segundo`) y los ordene de menor a mayor en dichas variables.
+    1. Ejemplos:
+        1. A: 56, B: 32 → A: 32, B: 56
+        2. A: 24, B: 76 → A: 24, B: 76
+        3. A: 45, B: 12 → A: 12, B: 45
+:
+1. iniciar
+2. definir primero
+3. definir segundo
+4. mostrar "ingrese el primer numero:"
+5. pedir primero
+6. mostrar "ingrese el segundo numero:"
+7. pedir segundo
+8. si (primero ⩽ segundo) entonces:
+	a. mostrar primero, segundo
+9. sino:
+	a. si (primero > segundo) entonces:
+		i. mostrar segundo, primero
+	b. finsi
+10. finsi
+11. fin
+
+
+
+
+
+
+
+
+
+
