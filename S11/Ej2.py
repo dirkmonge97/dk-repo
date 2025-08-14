@@ -19,9 +19,9 @@ p4=Person("Sebas")
 
 class Bus:
 
-    def __init__(self, max_passengers):
+    def __init__(self, max_passengers,passengers):
         self.max_passengers=max_passengers
-    passengers=[]
+        self.passengers=[]
 
     def add_passengers(self, person):
         if len(self.passengers)< self.max_passengers:
@@ -30,9 +30,9 @@ class Bus:
             print("the bus is full")
 
     def remove_passengers(self,person):
-        for i in range(self.passengers):
+        for i in len(self.passengers):
             if self.passengers[i]==person:
-                self.passengers.remove(i)
+                self.passengers.pop(i)
                 break
 
 my_bus=Bus(max_passengers=3)

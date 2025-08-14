@@ -4,9 +4,11 @@
     #2. Un método de `get_area` que retorne su área.
 
 class Circle:
-    def get_area(self,radius):
-        area=3.14*radius**2
+    def __init__(self, radius):
+        self.radius=radius
+    def get_area(self):
+        area=3.14*self.radius**2
         print(area)
 
-my_area=Circle()
-my_area.get_area(5)
+my_area=Circle(5)
+my_area.get_area()
